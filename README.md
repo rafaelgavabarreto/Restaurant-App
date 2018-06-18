@@ -32,5 +32,14 @@ Mid term project on LightHouse Labs. A food ordering experience for a restaurant
 
 ## Screen shots
 
-Simple screen with 3 users
-!["Simple screen with 3 users"](https://github.com/rafaelgavabarreto/chattyapp/blob/master/img/chattyapp.png)
+Main screen of the project
+!["Main screen of the project"](https://github.com/rafaelgavabarreto/Restaurant-App/blob/master/img/RestaurantApp%20Main%20Screen.png)
+
+Show the item
+![Show the item](https://github.com/rafaelgavabarreto/Restaurant-App/blob/master/img/RestaurantApp%20Item.png)
+
+Show the user cart
+![Show the cart](https://github.com/rafaelgavabarreto/Restaurant-App/blob/master/img/RestaurantApp%20Cart.png)
+
+User using a card to pay
+![User pay by card](https://github.com/rafaelgavabarreto/Restaurant-App/blob/master/img/RestaurantApp%20Card%20Pay.png)
