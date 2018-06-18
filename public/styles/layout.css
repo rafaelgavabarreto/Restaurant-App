@@ -1,0 +1,149 @@
+img {
+  height: 200px;
+  border-radius: 40px;
+  border: 2px solid #ddd;
+}
+
+.images {
+  display: block;
+}
+
+input {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+form {
+  padding-top: 20px;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+}
+
+.flip-container {
+  perspective: 1000px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-top: 2em;
+  margin-left: 5%;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 286px;
+  height: 300px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 1.0s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  text-align: center;
+  background: #FFFFFE;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+  border: 2px solid #ddd;
+}
+
+.back p {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Indie Flower', cursive;
+}
+
+button {
+  border-radius: 25px;
+}
+
+.name {
+  margin-top: 30px;
+}
+
+.order {
+  background: #30a2e4;
+  border: 2px solid #0099CC;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.order-button {
+  background: #30a2e4;
+  border: 2px solid #0099CC;
+  color: #fff;
+  margin-bottom: 5px;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.order:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.small {
+  height: 100px;
+  width: 100px;
+  padding-left: 5px;
+  border: none;
+}
+
+.menu-info {
+  margin-top: 2px;
+  padding-left: 5px;
+  font-size: small;
+}
+
+.row {
+  padding-bottom: 25px;
+}
+
+.image-container {
+  display: inline;
+}
+
+.carousel {
+  background: #666;
+  z-index: 0;
+}
+
+.carousel-controls, .carousel-indicators {
+  z-index: 666;
+}
+
+.carousel-inner {
+  z-index: 1;
+}

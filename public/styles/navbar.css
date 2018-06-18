@@ -1,0 +1,42 @@
+.navbar.navbar-default {
+  background-color: lightgray;
+  height: 90px;
+}
+
+.logo {
+  height: 140px;
+  width: 140px;
+  border: none;
+}
+
+.dropdown-menu {
+  width: 350px;
+}
+
+.dropdown-menu.show {
+  margin-right: -50px;
+}
+
+#navbarDropdown {
+  position: absolute;
+  right: 0;
+  margin-right: 40px;
+}
+
+nav > div.dropdown-menu {
+  left: initial;
+  right: 0;
+  margin-top: -30px;
+}
+
+nav > div.dropdown-menu .checkout-cart {
+  width: 100%;
+}
+
+nav > div.dropdown-menu form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: -30px;
+}
